@@ -1,12 +1,13 @@
 #center{
     position: absolute;
-    top: 25%;
+    top: 23.3%;
     left:50%
 }
 
 #googlelogo{
     position: relative;
     left: -136px;
+    top:-25px;
     margin: 0px;
 }
 
@@ -16,7 +17,7 @@
     height: 40px;
     left: -292px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color:#e0e0e0;
 
     border-radius: 50px;
