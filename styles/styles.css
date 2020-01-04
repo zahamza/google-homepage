@@ -92,6 +92,35 @@ a:hover{
     font-weight: bold;
     padding: 10px 15px;
     border: #4285f4 solid;
-    border-radius: 5px;
+    border-radius: 2px;
     border-width: 0px;
+}
+
+#bottom-bar{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    background-color: rgb(241, 241, 241);
+    left:0;
+    height: 4.5%;
+    border-top:rgb(207, 207, 207) solid 0.5px;
+}
+
+#bottom-left{
+    position: relative;
+    float: left;
+    top: 15px;
+    left: 10px;
+}
+
+#bottom-right{
+    position: relative;
+    float: right;
+    top: 15px;
+    right: 10px;
+}
+
+.bottom-item{
+    color: #5f6368; /*Doesn't work right now due to inherting from a:properties*/
+    margin: 0px 15px;
 }
