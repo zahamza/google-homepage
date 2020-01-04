@@ -14,7 +14,7 @@
 #search-bar{
     position: relative;
     width: 584px;
-    height: 40px;
+    height: 42px;
     left: -292px;
     border-style: solid;
     border-width: 1px;
@@ -44,4 +44,54 @@
     width:24px;
     top:-28px;
     left:10px;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li{
+    display: inline;
+    margin:0px 7px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+a:link, a:visited{
+    color:black;
+    opacity: 0.75;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+
+#top-left{
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+
+#top-right{
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+#sign-in-link{
+    color: white;
+    background-color: #4285f4;
+    opacity: 100;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: #4285f4 solid;
+    border-radius: 5px;
+    border-width: 0px;
 }
