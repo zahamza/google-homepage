@@ -36,6 +36,7 @@
     top:2px;
     border-style: none;
     border-color: blue;
+    outline:none;
 }
 
 #search-input:focus{
