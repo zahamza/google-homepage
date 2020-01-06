@@ -38,6 +38,10 @@
     border-color: blue;
 }
 
+#search-input:focus{
+    outline: none;
+}
+
 #mag-glass{
     position: relative;
     height:24px;
